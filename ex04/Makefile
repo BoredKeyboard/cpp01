@@ -6,7 +6,7 @@
 #    By: mforstho <mforstho@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2023/01/31 11:22:02 by mforstho      #+#    #+#                  #
-#    Updated: 2023/02/08 12:57:09 by mforstho      ########   odam.nl          #
+#    Updated: 2023/03/21 15:45:45 by mforstho      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ CFLAGS += $(INCLUDES) -DPROGRAM_NAME=\"$(NAME)\"
 
 all : $(NAME)
 
-$(NAME) : $(OBJECTS) 
+$(NAME) : $(OBJECTS)
 	$(CC) $(CFLAGS) $(OBJECTS) -o $(NAME)
 
 $(OBJDIR)/%.o : %.cpp $(HEADERS)

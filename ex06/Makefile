@@ -6,11 +6,11 @@
 #    By: mforstho <mforstho@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2023/01/31 11:22:02 by mforstho      #+#    #+#                  #
-#    Updated: 2023/03/21 15:45:49 by mforstho      ########   odam.nl          #
+#    Updated: 2023/03/21 17:31:52 by mforstho      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := infighting
+NAME := harlFilter
 CC := c++
 CFLAGS ?= -Wextra -Wall -Werror -std=c++98 -pedantic #-fsanitize=address -g
 
